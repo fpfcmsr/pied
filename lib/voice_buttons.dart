@@ -110,7 +110,7 @@ class _VoiceButtonsState extends State<VoiceButtons> {
     }
   
     File sdConfig = File(path.join(confDir.path, "speechd.conf"));
-    File sdBackup = File(path.join(confDir.path, "speechd.conf.beofore_pied"));
+    File sdBackup = File(path.join(confDir.path, "speechd.conf.before_pied"));
     File piperConf = File(path.join(modulesDir.path, "piper.conf"));
     File piperBackup = File(path.join(modulesDir.path, "piper.conf.before_pied"));
   
